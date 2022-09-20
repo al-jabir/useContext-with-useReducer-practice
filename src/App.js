@@ -1,8 +1,8 @@
 import { Link, Router } from "@reach/router";
 import styled from "styled-components";
 
-import Cart from "./Cart";
-import Products from "./Products";
+import Cart from "./Components/Cart";
+import Products from "./Components/Products";
 import { ShopProvider } from "./ShopContext";
 
 const App = () => {
